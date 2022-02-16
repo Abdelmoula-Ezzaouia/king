@@ -1,0 +1,34 @@
+body {
+    color: green;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 400px) {
+    body {
+        color: rgb(209, 142, 198);
+    }
+}
+@media (orientation: landscape) and (max-width: 500px) {
+     h1 {
+         color: #000;
+     }
+     p{
+         color: blueviolet;
+     }
+}
+
+@media (orientation: portrait) {
+    p{
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+learn.web.development2021@gmail.com
+
+Abdelmoula-Ezzaouia
